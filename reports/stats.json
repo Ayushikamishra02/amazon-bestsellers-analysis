@@ -1,0 +1,99 @@
+{
+  "headline": {
+    "list_slots": 550,
+    "unique_books": 350,
+    "unique_authors": 246,
+    "years": "2009-2019",
+    "share_rated_4_5_plus": 0.8028571428571428,
+    "share_books_one_year": 0.7285714285714285,
+    "free_rows": 12
+  },
+  "genre_trend": {
+    "fiction_share_overall": 0.43636363636363634,
+    "slope_per_year": -0.0032727272727272718,
+    "p_value": 0.6236159779989507,
+    "min_year": 2015,
+    "min_share": 0.34,
+    "max_year": 2014,
+    "max_share": 0.58
+  },
+  "rating_genre": {
+    "column": "rating",
+    "fiction_median": 4.7,
+    "nonfiction_median": 4.6,
+    "fiction_mean": 4.615625,
+    "nonfiction_mean": 4.602593984962406,
+    "n_fiction": 160,
+    "n_nonfiction": 190,
+    "u_statistic": 17421.5,
+    "p_value": 0.01689895361526656,
+    "rank_biserial": -0.1461513157894736
+  },
+  "price_genre": {
+    "column": "price",
+    "fiction_median": 11.0,
+    "nonfiction_median": 12.0,
+    "fiction_mean": 12.763157894736842,
+    "nonfiction_mean": 13.843915343915343,
+    "n_fiction": 152,
+    "n_nonfiction": 189,
+    "u_statistic": 12765.0,
+    "p_value": 0.07685880514180168,
+    "rank_biserial": 0.11131996658312449
+  },
+  "reviews_genre": {
+    "column": "reviews",
+    "fiction_median": 8839.5,
+    "nonfiction_median": 5041.0,
+    "fiction_mean": 13111.06875,
+    "nonfiction_mean": 7044.426315789474,
+    "n_fiction": 160,
+    "n_nonfiction": 190,
+    "u_statistic": 20651.0,
+    "p_value": 7.464768991770637e-09,
+    "rank_biserial": -0.35861842105263153
+  },
+  "rating_trend": {
+    "spearman_rho": 0.28691261770746107,
+    "p_value": 6.97848171700739e-12,
+    "mean_first_year": 4.584,
+    "mean_last_year": 4.74
+  },
+  "price_trend": {
+    "spearman_rho": -0.21953904588278755,
+    "p_value": 2.700939525691606e-07,
+    "median_first_year": 12.0,
+    "median_last_year": 10.0
+  },
+  "authors": {
+    "unique_authors": 246,
+    "top_10_share_of_slots": 0.17454545454545456,
+    "one_appearance_authors_share": 0.5284552845528455
+  },
+  "correlations": {
+    "rating": {
+      "rating": 1.0,
+      "reviews": 0.112,
+      "price": -0.065,
+      "years_on_list": 0.054
+    },
+    "reviews": {
+      "rating": 0.112,
+      "reviews": 1.0,
+      "price": -0.066,
+      "years_on_list": 0.4
+    },
+    "price": {
+      "rating": -0.065,
+      "reviews": -0.066,
+      "price": 1.0,
+      "years_on_list": -0.144
+    },
+    "years_on_list": {
+      "rating": 0.054,
+      "reviews": 0.4,
+      "price": -0.144,
+      "years_on_list": 1.0
+    }
+  }
+}
