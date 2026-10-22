@@ -19,7 +19,7 @@
 
 ---
 
-## 📌 Overview
+## 📌 About
 
 Amazon publishes a list of its 50 bestselling books every year. Using the 2009–2019 lists (550 entries, 350 unique
 books, 246 authors) this project answers six questions:
